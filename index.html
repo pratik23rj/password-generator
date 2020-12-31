@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keyword" content="template, pratik, css, block , building block, component, hero">
+    <meta name="description" content="Hi, I am Pratik Jadhav. These are my Javascript Mini Project">
+    <meta name="author" content="Pratik Jadhav">
+    <meta name="copyright" content="Pratik Jadhav">
+    <meta name="theme-color" content="#1A5CFF">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap"
+        rel="stylesheet">
+    <title> Password Generator </title>
+
+</head>
+
+<body>
+    <h1> Strong Password Generator </h1>
+
+    <div class="container">
+
+        <div>
+            <input id="passwordLength" type="number" placeholder="Length" name="">
+        </div>
+
+        <div>
+            <button id="generate" onclick="getPassword()">Generate</button>
+        </div>
+
+        <div class="container-class">
+            <div>
+                <input id="password" type="text" placeholder=" Password"  disabled="disabled" name="">
+            </div>
+
+            <div>
+                
+                <button onclick="copyFunction()" id="copy">
+                    Copy
+                </button>
+            </div>
+        </div>
+
+
+    </div>
+
+
+        <div class="tip">
+            <p> Password length should be in between 7-17 </p>
+        </div>
+
+
+
+
+
+
+
+    <script src="main.js"></script>
+</body>
+
+</html>

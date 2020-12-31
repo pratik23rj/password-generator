@@ -1,0 +1,95 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+
+}
+
+h1{
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.container{
+    
+    margin: 2rem auto;
+    width: min(90%, 500px);
+    height: 200px;
+    border: 1px solid #D4D4D8;
+    background-color: #F4F4F5;
+    box-shadow: 10px 10px 5px #D4D4D8;
+    border-radius: 0.75rem;
+    
+
+}
+    
+
+input[type="number"]{
+    width: 50%;
+    height: 15px;
+    margin: 1rem 0 0 2rem;
+    border: 0px solid transparent;
+    border-radius: 0.7rem;
+    color: #18181B;
+    padding: 10px 0px 10px 12px;
+    outline-color: #52525B;
+    font-size: 1rem;
+    
+}
+
+#generate{
+    background-color: #18181B;
+    color: white;
+    border: 1px solid transparent;
+    border-radius: 12px;
+    padding: 8px 60px;
+    font-size: 1rem;
+    outline: none;
+    margin: 1rem 0 0 2rem;
+    font-weight: 400;
+
+}
+
+
+input[type="text"]{
+    width: 60%;
+    height: 18px;
+    margin: 1rem 0 0 2rem;
+    border: 2px solid  #27272A;
+    border-radius: 0.7rem;
+    color: #18181B;
+    padding: 10px 13px 10px 12px;
+    outline-color: #52525B;
+    font-size: 1rem;
+    
+}
+
+input[type=text]:disabled {
+    background: white
+}
+
+.container-class{
+    display: flex;
+    margin-top: 1.2rem;
+    
+}
+
+#copy{
+    
+    margin: 1rem 0 0 1rem;
+    background-color: #1A5CFF;
+    color: white;
+    border: 1px solid transparent;
+    border-radius: 15px;
+    padding: 10px 16px ;
+    outline: none;
+    font-size: 1rem;
+    
+}
+
+.tip{
+    background-color: #F0F9FF;
+    padding: 0.1rem 1rem ;
+    text-align: center;
+    font-weight: 500;
+    margin-top: 5rem;
+}
